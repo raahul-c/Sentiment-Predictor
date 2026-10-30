@@ -1,19 +1,4 @@
-"""Train the BiGRU sentiment model on any CSV of comments.
 
-Examples
-  # the public datasets from prepare_data.py (Yelp + TweetEval)
-  python train.py --data data/train.csv --test-data data/test.csv --text-col text --label-col sentiment
-
-  # labels derived from a star rating column (slide 6 rule)
-  python train.py --data reviews.csv --text-col review --rating-col stars --neg-max 2 --pos-min 4
-
-  # labels already in a column (positive / neutral / negative or 0 / 1 / 2)
-  python train.py --data my_comments.csv --text-col comment --label-col sentiment
-
-  # hybrid model: text + structured columns (only if your labelled CSV has them)
-  python train.py --data labelled.csv --text-col Review --label-col sentiment \
-      --cat-cols Area City "Food Type" --num-cols "Restaurant Price" "Delivery Time" "Total Rating"
-"""
 import argparse
 import json
 import time
