@@ -1,0 +1,137 @@
+OVERALL
+-------
+Negative     2060   25.8%
+Neutral      1966   24.6%
+Positive     3974   49.7%
+Mean sentiment score +0.202   mean predicted stars 3.40
+
+PER UNIQUE COMMENT (most positive first)
+----------------------------------------
+                                     rows sentiment  confidence  score
+Review                                                                
+Best meal I've had in a while!        413  Positive       0.970  0.966
+Absolutely loved it!                  395  Positive       0.958  0.953
+My new favorite dish!                 446  Positive       0.953  0.948
+Amazing taste and quick delivery.     437  Positive       0.883  0.866
+Delicious and fresh.                  432  Positive       0.866  0.852
+Highly recommended!                   464  Positive       0.907  0.839
+Perfectly cooked and well-seasoned.   471  Positive       0.849  0.831
+Tasty and worth the price.            467  Positive       0.746  0.726
+Superb packaging and presentation.    449  Positive       0.707  0.619
+A decent meal.                        287   Neutral       0.714  0.044
+Good, but nothing extraordinary.      265   Neutral       0.775 -0.009
+Too spicy and oily.                   198   Neutral       0.407 -0.057
+Standard quality.                     260   Neutral       0.453 -0.081
+It was okay.                          251   Neutral       0.534 -0.290
+Not as described.                     178  Negative       0.481 -0.300
+Would order again if needed.          265  Negative       0.474 -0.310
+Neither great nor bad.                267   Neutral       0.449 -0.317
+Wouldn't order again.                 179   Neutral       0.520 -0.317
+Average taste.                        259   Neutral       0.556 -0.366
+Nothing special but edible.           288  Negative       0.579 -0.552
+Late delivery ruined it.              171  Negative       0.756 -0.719
+Not worth the price.                  183  Negative       0.734 -0.722
+Disappointed.                         192  Negative       0.749 -0.745
+Mediocre experience.                  249  Negative       0.751 -0.745
+Terrible taste!                       174  Negative       0.960 -0.954
+Cold and stale food.                  176  Negative       0.965 -0.960
+Worst experience ever.                184  Negative       0.990 -0.986
+
+BY CITY
+-------
+           % Negative  % Neutral  % Positive  Mean Score  Rows
+City                                                          
+Mumbai           25.0       23.4        51.6       0.218   980
+Hyderabad        25.0       25.0        50.1       0.214  1014
+Ahmedabad        26.0       24.1        50.0       0.208  1001
+Pune             25.4       25.3        49.3       0.205  1028
+Delhi            26.2       23.5        50.3       0.200   988
+Bangalore        24.8       26.4        48.7       0.193   999
+Chennai          27.1       23.8        49.1       0.189   984
+Kolkata          26.5       25.1        48.3       0.189  1006
+
+BY AREA
+-------
+                   % Negative  % Neutral  % Positive  Mean Score  Rows
+Area                                                                  
+Tech Park                24.2       24.8        51.0       0.226  1118
+City Center              27.4       22.2        50.4       0.206  1106
+Downtown                 25.9       24.7        49.4       0.205  1160
+Suburb                   25.0       25.7        49.3       0.204  1166
+Business District        26.2       24.6        49.2       0.194  1244
+Old Town                 25.8       24.1        50.1       0.193  1058
+Residential Area         25.7       25.8        48.5       0.186  1148
+
+BY FOOD TYPE
+------------
+                % Negative  % Neutral  % Positive  Mean Score  Rows
+Food Type                                                          
+Vegetarian            24.9       22.6        52.5       0.235  1359
+Vegan                 24.8       24.9        50.3       0.214  1347
+Gluten-Free           24.5       26.8        48.6       0.200  1320
+Non-Vegetarian        26.7       24.1        49.2       0.198  1333
+Healthy               27.2       23.4        49.4       0.183  1265
+Fast Food             26.4       25.7        48.0       0.181  1376
+
+BY FOOD ITEM
+------------
+                      % Negative  % Neutral  % Positive  Mean Score  Rows
+Food Item                                                                
+Lassi                       22.1       22.7        55.2       0.305   154
+Shawarma                    25.9       17.0        57.1       0.276   147
+Bagel                       21.4       22.9        55.7       0.272   131
+Waffles                     21.5       27.5        51.0       0.271   149
+Butter Chicken              21.7       22.4        55.9       0.265   161
+Ramen                       23.9       21.9        54.2       0.256   155
+Grilled Cheese              22.5       26.1        51.4       0.247   142
+Smoothie Bowl               22.0       26.2        51.8       0.245   164
+Gulab Jamun                 23.9       24.5        51.6       0.244   155
+Falafel Wrap                24.2       24.8        50.9       0.243   161
+Pho                         23.9       23.3        52.8       0.243   163
+Pani Puri                   24.9       22.5        52.7       0.234   169
+Tacos                       22.9       25.3        51.8       0.230   170
+Cheeseburger                25.5       24.2        50.3       0.228   157
+Croissant                   24.5       24.5        50.9       0.220   163
+Greek Salad                 23.5       27.5        49.0       0.219   149
+Steak                       25.9       22.2        51.9       0.219   162
+Brownie                     25.2       23.3        51.6       0.219   159
+Salmon Teriyaki             21.9       27.2        51.0       0.216   151
+Bubble Tea                  23.7       26.9        49.4       0.216   156
+Chow Mein                   23.6       25.0        51.4       0.216   148
+Cold Coffee                 29.1       20.3        50.6       0.212   172
+Avocado Toast               25.9       22.8        51.3       0.209   158
+BBQ Ribs                    24.4       25.6        50.0       0.209   164
+Poke Bowl                   24.8       24.2        51.0       0.206   149
+Idli Sambar                 22.9       28.1        49.0       0.205   153
+Mango Shake                 22.6       27.7        49.7       0.204   155
+Ice Cream Sundae            25.9       24.5        49.7       0.201   147
+Samosa                      25.4       25.4        49.1       0.201   169
+French Fries                23.6       25.5        50.9       0.200   165
+Fish and Chips              27.0       22.5        50.6       0.200   178
+Pasta Alfredo               29.1       19.2        51.7       0.197   172
+Veg Biryani                 23.3       27.9        48.8       0.190   172
+Paneer Butter Masala        24.5       27.7        47.8       0.186   184
+Pav Bhaji                   28.7       21.9        49.4       0.180   160
+Sushi                       25.9       25.9        48.1       0.177   162
+Margherita Pizza            27.4       26.8        45.8       0.175   168
+Pancakes                    27.9       22.1        50.0       0.175   140
+Dosa                        23.6       29.7        46.7       0.175   165
+Tandoori Chicken            28.4       22.7        48.9       0.173   176
+Spring Rolls                31.5       20.4        48.1       0.170   162
+Choco Lava Cake             28.0       26.7        45.3       0.168   150
+Chicken Biryani             29.0       26.0        45.0       0.163   169
+Chicken Wings               28.4       26.0        45.6       0.152   169
+Fruit Bowl                  27.7       27.1        45.2       0.134   166
+Dal Makhani                 32.5       22.5        45.0       0.132   151
+Burrito                     30.6       24.1        45.3       0.127   170
+Momos                       27.8       29.5        42.6       0.120   176
+Pepperoni Pizza             30.7       25.8        43.6       0.116   163
+Chicken Caesar Salad        34.2       20.8        45.0       0.113   149
+
+RATING vs TEXT ('Avg Rating': <= 2.5 Negative, >= 4.0 Positive)
+-------------------------------------------
+4560 of 8000 rows (57.0%) disagree; flagged in 'Disagrees With Rating'.
+text says    Negative  Neutral  Positive
+rating says                             
+Neutral           587      576      1110
+Positive         1473     1390      2864
