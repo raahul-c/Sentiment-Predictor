@@ -1,15 +1,4 @@
-"""Rate the sentiment of comments with a trained model.
 
-Examples
-  # rate every review in swiggy.csv and write a summary
-  python predict.py --input data/swiggy.csv --text-col Review
-
-  # rate comments typed on the command line
-  python predict.py --text "Cold and stale food." "Absolutely loved it!"
-
-  # interactive: type comments, Ctrl+D (Windows: Ctrl+Z, Enter) to quit
-  python predict.py
-"""
 import argparse
 import sys
 from pathlib import Path
