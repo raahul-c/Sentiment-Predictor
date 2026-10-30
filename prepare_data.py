@@ -1,12 +1,4 @@
-"""Download the public training datasets and merge them into one labelled CSV.
 
-1. Yelp Review Full (Zhang et al., 2015): 650,000 train + 50,000 test Yelp reviews,
-   mostly restaurants, with 1-5 stars. Stars 1-2 -> negative, 3 -> neutral, 4-5 -> positive.
-2. TweetEval sentiment (Barbieri et al., 2020): ~60,000 short tweets labelled
-   negative / neutral / positive. Adds short, one-line comments like the ones in swiggy.csv.
-
-Writes data/train.csv and data/test.csv with columns: text,sentiment,source
-"""
 import argparse
 import tarfile
 import urllib.request
