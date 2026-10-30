@@ -1,11 +1,4 @@
-"""Build an offline HTML dashboard comparing swiggy.csv's Avg Rating with the model's
-sentiment rating of each review. Run predict.py first.
 
-  python dashboard.py                                   # reads results/swiggy_predictions.csv
-  python dashboard.py --input results/other_predictions.csv --out results/other_dashboard.html
-
-The page is one self-contained file (no internet needed) and opens in your browser.
-"""
 import argparse
 import html
 import webbrowser
